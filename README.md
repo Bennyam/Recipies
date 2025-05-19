@@ -2,6 +2,8 @@
 
 **Recipe Book** is een moderne webapplicatie waarmee je eenvoudig recepten kunt opzoeken op basis van ingrediënten of de naam van een recept. Gebruikers kunnen hun favoriete recepten bookmarken, het aantal porties aanpassen (waarbij de ingrediënten automatisch worden herberekend), en doorklikken naar de bereidingswijze via een externe link.
 
+De app is gebaseerd op de forkify app van [Jonas Schmedtmann](https://github.com/jonasschmedtmann) en werd volledig opnieuw gebouwd in React als leerproject, de originele versie van Jonas was geboud in html, css en vanilla javascript.
+
 🔗 **Live demo:** [https://recipe-book-free.netlify.app/](https://recipe-book-free.netlify.app/)  
 💻 **GitHub project:** [https://github.com/Bennyam/Recipies](https://github.com/Bennyam/Recipies)
 
@@ -13,7 +15,7 @@
 - 📌 Favoriete recepten bookmarken
 - 🔢 Porties aanpassen met automatische update van de ingrediëntenlijst
 - 🔗 Link naar de externe bereidingswijze
-- 💾 Bookmarkgegevens worden opgeslagen in *localStorage*
+- 💾 Bookmarkgegevens worden opgeslagen in _localStorage_
 - ♻️ Herbruikbare componenten met eigen CSS modules
 - 🧭 Navigatie via React Router
 - ⚙️ State management via Context API met custom hook en reducer
