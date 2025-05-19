@@ -1,0 +1,8 @@
+.logo {
+  margin-left: 3rem;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  color: transparent;
+  background-clip: text;
+  font-size: 3.2rem;
+  font-weight: 700;
+}

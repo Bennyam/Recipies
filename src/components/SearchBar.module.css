@@ -1,0 +1,38 @@
+.searchBar {
+  background-color: #fff;
+  border-radius: 10rem;
+  transition: all 0.2s;
+}
+
+.searchBar:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 0.7rem 3rem rgba(97, 85, 81, 0.2);
+}
+
+.input,
+.btn {
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.5rem 4rem;
+  border-radius: 10rem;
+  border: none;
+}
+
+.input {
+  width: 30rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.btn {
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  margin-left: -4rem;
+  color: #fff;
+  text-transform: uppercase;
+}

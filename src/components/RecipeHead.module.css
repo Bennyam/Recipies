@@ -1,0 +1,44 @@
+.figure {
+  height: 32rem;
+  position: relative;
+  transform-origin: top;
+}
+
+.figure:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  opacity: 0.6;
+}
+
+.figure:before,
+.img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 20%) skewY(-6deg);
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.25rem;
+  text-transform: uppercase;
+  line-height: 1.95;
+  text-align: center;
+}
+
+.span {
+  box-decoration-break: clone;
+  padding: 1.3rem 2rem;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+}

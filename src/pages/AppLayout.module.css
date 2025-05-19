@@ -1,0 +1,15 @@
+.app {
+  margin: 4vw auto;
+  max-width: 120rem;
+  min-height: 117rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(97, 85, 81, 0.2);
+  display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "head head"
+    "list recipe";
+}

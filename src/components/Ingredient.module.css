@@ -1,0 +1,18 @@
+.ingredient {
+  display: flex;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #f38e82;
+  margin-right: 1.1rem;
+  transform: translateY(-3px);
+}
+
+.quantity {
+  margin-right: 0.5rem;
+}
+
+.unit {
+  margin-right: 0.5rem;
+}
